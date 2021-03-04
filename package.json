@@ -1,0 +1,20 @@
+{
+  "name": "kafka-live-data-dashboard",
+  "version": "1.0.0",
+  "description": "Simple dashboard consuming live data from kafka producer.",
+  "scripts": {
+    "install": "cd producer && yarn install && cd ../consumer && yarn install",
+    "producer": "cd producer && yarn start",
+    "consumer": "cd consumer && yarn start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adneovrebo/kafka-live-data-dashboard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adneovrebo/kafka-live-data-dashboard/issues"
+  },
+  "homepage": "https://github.com/adneovrebo/kafka-live-data-dashboard#readme"
+}
